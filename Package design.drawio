@@ -1,0 +1,32 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="M-w6mdyX32GxwoOeqScp">
+    <mxGraphModel dx="1042" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wgm8XmEdrTZdbpBMNA4q-6" edge="1" parent="1" source="wgm8XmEdrTZdbpBMNA4q-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="wgm8XmEdrTZdbpBMNA4q-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wgm8XmEdrTZdbpBMNA4q-11" edge="1" parent="1" source="wgm8XmEdrTZdbpBMNA4q-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wgm8XmEdrTZdbpBMNA4q-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wgm8XmEdrTZdbpBMNA4q-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GUI&lt;div&gt;InputFrame&lt;/div&gt;&lt;div&gt;SimulationFrame&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wgm8XmEdrTZdbpBMNA4q-8" edge="1" parent="1" source="wgm8XmEdrTZdbpBMNA4q-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.598;entryDx=0;entryDy=0;entryPerimeter=0;" target="wgm8XmEdrTZdbpBMNA4q-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wgm8XmEdrTZdbpBMNA4q-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Business Logic&lt;div&gt;Sche&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;duler&lt;/span&gt;&lt;/div&gt;&lt;div&gt;SelectionPolicy&lt;/div&gt;&lt;div&gt;ShortestQueueStrategy&lt;/div&gt;&lt;div&gt;ShortestTimeStrategy&lt;/div&gt;&lt;div&gt;Strategy&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="60" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wgm8XmEdrTZdbpBMNA4q-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Model&lt;div&gt;Server&lt;/div&gt;&lt;div&gt;Task&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="220" x="410" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

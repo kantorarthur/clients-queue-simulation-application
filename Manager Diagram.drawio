@@ -1,0 +1,32 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="F5Ayr7phZVqiFT172cdO">
+    <mxGraphModel dx="1226" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0n2fP9eELLkS1F_uBKnr-1" edge="1" parent="1" source="VzfO4TCh2M62fbYXbTK9-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="173.23529411764707" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0n2fP9eELLkS1F_uBKnr-3" edge="1" parent="1" source="VzfO4TCh2M62fbYXbTK9-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="290" />
+            </Array>
+            <mxPoint x="380" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzfO4TCh2M62fbYXbTK9-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Manager&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="60" x="150" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0n2fP9eELLkS1F_uBKnr-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Setup Simulation" vertex="1">
+          <mxGeometry height="80" width="120" x="390" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0n2fP9eELLkS1F_uBKnr-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Run Simulation" vertex="1">
+          <mxGeometry height="80" width="120" x="380" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
