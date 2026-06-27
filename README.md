@@ -26,6 +26,8 @@ The application automatically generates a user-defined number of clients. Each c
 
 • **Arrival time**: The exact simulation second when a client joins one of the server queues (based on the active selection policy).
 
+
+
 ### Simulation Output & Log File
 At the end of the execution, the application generates a structured text file named `test.txt`. This file acts as a complete log of the simulation, capturing the system's state second by second.
 
@@ -36,6 +38,12 @@ At the end of the execution, the application generates a structured text file na
    * **Average Waiting Time**: The mean time clients spent waiting in lines before service began.
    * **Average Service Time**: The mean duration required to process a client.
    * **Peak Hour**: The exact simulation second when the system experienced the highest congestion (the maximum total number of clients across all queues simultaneously).
+
+# How to run the application
+To run this application, ensure you have Java 17 or higher installed on your system.
+
+Download the ZIP File, extract it and run "runApplication.jar".
+
 
 ## Video of a live simulation using Shortest-Time strategy.
 https://github.com/user-attachments/assets/05b37510-869f-443d-b010-8ec920803fb6
