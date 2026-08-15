@@ -1,6 +1,6 @@
 # Queue Management Simulation
 
-This GUI-driven application simulates a multi-server queueing system, managing the distribution of clients to servers based on a user-selected strategy.
+Full-stack Java application. Simulates a multi-server queueing system, managing the distribution of clients to servers based on a user-selected strategy.
 
 A practical way to visualize this is a supermarket scenario: clients wait in lines to be served, while servers act as cash registers that can process only one client at a time.
 
