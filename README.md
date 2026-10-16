@@ -39,11 +39,19 @@ At the end of the execution, the application generates a structured text file na
    * **Average Service Time**: The mean duration required to process a client.
    * **Peak Hour**: The exact simulation second when the system experienced the highest congestion (the maximum total number of clients across all queues simultaneously).
 
-# How to run the application
-To run this application, ensure you have Java 17 or higher installed on your system.
+## Build and run
+```bash
+#Clone the repository
+git clone https://github.com/kantorarthur/clients-queue-simulation-application
 
-Download the ZIP File, extract it and run "runApplication.jar".
+#Enter the main directory of the repository
+cd clients-queue-simulation-application
 
+#Execute the program
+./runApplication
+
+```
+### To run the program, make sure Java 17 or later is installed on your system.
 
 ## Video of a live simulation using Shortest-Time strategy.
 https://github.com/user-attachments/assets/05b37510-869f-443d-b010-8ec920803fb6
