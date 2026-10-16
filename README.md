@@ -39,22 +39,43 @@ At the end of the execution, the application generates a structured text file na
    * **Average Service Time**: The mean duration required to process a client.
    * **Peak Hour**: The exact simulation second when the system experienced the highest congestion (the maximum total number of clients across all queues simultaneously).
 
+## Requirements
+
+- Java 17 or later, **with GUI support** (e.g. `openjdk-17-jdk`, not a `-headless` package)
+- Maven 3.6+ (only needed for building from source)
+- A graphical desktop session (X11/Wayland)
+
+Dependencies (FlatLaf 3.5.4 and FlatLaf IntelliJ Themes 3.5.4) are bundled in `runApplication.jar` and downloaded automatically by Maven when building.
+
 ## Build and run
+
 ```bash
-#Clone the repository
+# Clone the repository
 git clone https://github.com/kantorarthur/clients-queue-simulation-application
 
-#Enter the main directory of the repository
+# Enter the main directory of the repository
 cd clients-queue-simulation-application
 
-#Execute the program
-./runApplication
-
+# Run the prebuilt jar
+java -jar runApplication.jar
 ```
-### To run the program, make sure Java 17 or later is installed on your system.
 
-## Video of a live simulation using Shortest-Time strategy.
-https://github.com/user-attachments/assets/05b37510-869f-443d-b010-8ec920803fb6
+To build from source:
+
+```bash
+sudo apt install openjdk-17-jdk maven
+mvn clean package
+java -jar target/runApplication.jar
+```
+
+## Troubleshooting
+
+If you get `java.awt.HeadlessException`, a headless Java is being used. Select a full one:
+
+```bash
+sudo update-alternatives --config java   # choose Java 17 or 21, not a headless-only version
+java -version
+```
 
 
 ## Main Input Frame
