@@ -39,6 +39,10 @@ At the end of the execution, the application generates a structured text file na
    * **Average Service Time**: The mean duration required to process a client.
    * **Peak Hour**: The exact simulation second when the system experienced the highest congestion (the maximum total number of clients across all queues simultaneously).
 
+## Video of a live simulation using Shortest-Time strategy.
+https://github.com/user-attachments/assets/05b37510-869f-443d-b010-8ec920803fb6
+
+
 ## Requirements
 
 - Java 17 or later, **with GUI support** (e.g. `openjdk-17-jdk`, not a `-headless` package)
