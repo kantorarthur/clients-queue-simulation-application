@@ -1,15 +1,15 @@
 # Queue Management Simulation
 
-Full-stack Java application. Simulates a multi-server queueing system, managing the distribution of clients to servers based on a user-selected strategy.
+Desktop Java application. Simulates a multi-server queueing system, managing the distribution of clients to servers based on a user-selected strategy.
 
 A practical way to visualize this is a supermarket scenario: clients wait in lines to be served, while servers act as cash registers that can process only one client at a time.
 
-The application is built using a robust, multi-threaded Java architecture designed to separate business logic from the presentation layer:
+The application is built using a multi-threaded Java architecture designed to separate business logic from the presentation layer:
 
 * **Java (Core Backend Logic)**: Handles the simulation engine, client generation algorithms, and queue distribution strategies.
 * **Multi-Threading**: The simulation runs asynchronously. Each server (queue) operates on its own dedicated background thread, simulating concurrent real-time processing, while a master scheduler thread manages the simulation clock.
 * **Java Swing**: Used to build the graphical user interface (GUI), handling user inputs and rendering the real-time visual updates of the queues.
-* **FlatLaf**: A modern, clean Look and Feel laf library used to style and design the Swing interface, giving the application a polished, contemporary appearance.
+* **FlatLaf**: A modern, clean Look and Feel (LAF) library used to style and design the Swing interface, giving the application a polished, contemporary appearance.
 
 ## Selection Policies
 The user can choose between two allocation strategies:
@@ -39,7 +39,7 @@ At the end of the execution, the application generates a structured text file na
    * **Average Service Time**: The mean duration required to process a client.
    * **Peak Hour**: The exact simulation second when the system experienced the highest congestion (the maximum total number of clients across all queues simultaneously).
 
-## Video of a live simulation using Shortest-Time strategy.
+## Video of a live simulation using the SHORTEST_TIME strategy
 https://github.com/user-attachments/assets/05b37510-869f-443d-b010-8ec920803fb6
 
 
@@ -89,9 +89,9 @@ Upon launching the application, the user is presented with a configuration inter
 
 • **Time limit**: The total duration (in seconds) for which the simulation will run.
 
-• **Max Service Time**: The maximum service time that a client have to be generated with.
+• **Max Service Time**: The maximum service time a client can be generated with.
 
-• **Min Service Time**: The minimum service time that a client have to be generated with.
+• **Min Service Time**: The minimum service time a client can be generated with.
 
 • **Number of servers**: The number of available processing units (cash registers).
 
@@ -99,9 +99,9 @@ Upon launching the application, the user is presented with a configuration inter
 
 • **Selection Policy**: The algorithm used to dispatch clients to queues (SHORTEST_QUEUE or SHORTEST_TIME).
 
-• **Max Arrival Time**: The maximum arrival time that a client have to be generated with.
+• **Max Arrival Time**: The maximum arrival time a client can be generated with.
 
-• **Min Arrival Time**: The minimum arrival time that a client have to be generated with.
+• **Min Arrival Time**: The minimum arrival time a client can be generated with.
 
 ## Simulation Progress Frame
 <img width="880" height="685" alt="image" src="https://github.com/user-attachments/assets/7e38649b-cdf3-4c5e-a277-05c7bf01b999" />
